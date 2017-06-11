@@ -7,8 +7,9 @@ Sample C++ project which uses modern CMake to build
 Сборка вместе с тестами выглядит так:
 
 ```bash
-# Конфигурируем.
-cmake -DBUILD_TEST=ON .
+# Конфигурируем со сборкой тестов
+#  если тесты не нужны, используйте 'cmake -DBUILD_TESTING=OFF .'.
+cmake .
 
 # Собираем 2 библиотеки, 2 набора тестов и 1 исполняемый файл.
 cmake --build .
