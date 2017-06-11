@@ -1,0 +1,3 @@
+custom_add_executable_from_dir(hellogoodbyeapp)
+custom_enable_cxx17(hellogoodbyeapp)
+target_link_libraries(hellogoodbyeapp libhello libgoodbye)

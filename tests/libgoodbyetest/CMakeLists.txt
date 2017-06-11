@@ -1,0 +1,1 @@
+custom_add_test_from_dir(libgoodbyetest libgoodbye)
